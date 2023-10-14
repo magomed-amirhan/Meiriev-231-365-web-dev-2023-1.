@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    background-image: url(./1.jpg);
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="remember"],
+input[type="mail"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type="file"] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+label.checkbox-label {
+    display: block;
+    margin-top: 5px;
+}
+input:invalid,
+textarea:invalid,
+select:invalid {
+    border: 2px solid #3a3333;
+}
+h2 {
+    text-align: center;
+}
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

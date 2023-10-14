@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="form-section">
+        <h3>
+            <label for="fio"><strong>ФИО:</strong></label>
+            <input type="text" name="fio" id="fio" required>
+
+            <label for="email"><strong>Ваша эелектронная почта:</strong></label>
+            <input type="email" name="email" id="email" required>
+
+            <label><strong>Откуда вы узнали о нас</strong></label>
+            <input type="radio" name="member" value="get"> Из соцсетей
+            <input type="radio" name="member" value="get"> От знакомых
+
+            <label for="bender"><strong>Категория обращения</strong></label>
+            <select name="bender" id="bender">
+                <option value="1">Предложение</option>
+                <option value="2">Селектор</option>
+                <option value="3">Жалоба</option>
+            </select>
+
+            <label for="comments"><strong>Текст сообщения:</strong></label>
+            <textarea name="comments" id="comments" rows="4" cols="50"></textarea>
+
+            <label for="file"><strong>Вложение :</strong></label>
+            <input type="file" name="file" id="file">
+
+            <label>
+                <input type="checkbox" name="goals" value="yes"> Даю согласие на обработку
+            </label>
+
+            <br>
+            <input type="submit" value="Отправить">
+        </h3>
+    </section>
+</body>
+
+</html>
